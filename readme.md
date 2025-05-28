@@ -127,8 +127,6 @@ cardfort/
 ├── database/
 ├── public/
 ├── .env.example           # Configurações de ambiente
-├── completo.sql          # Backup do banco
-└── README.md
 ```
 
 ## 🔧 Principais Melhorias Implementadas
