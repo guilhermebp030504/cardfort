@@ -9,7 +9,7 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 
 class CategoriaTest extends TestCase
 {
-    use RefreshDatabase;
+  //  use RefreshDatabase;
 
     /** @test */
     public function cria_uma_categoria_com_sucesso()

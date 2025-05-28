@@ -9,7 +9,7 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 
 class MaterialTest extends TestCase
 {
-    use RefreshDatabase;
+   // use RefreshDatabase;
 
     /** @test */
     public function cria_um_material_com_sucesso()

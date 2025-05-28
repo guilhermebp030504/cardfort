@@ -10,7 +10,7 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 
 class CadeiraTest extends TestCase
 {
-    use RefreshDatabase;
+  //  use RefreshDatabase;
 
     /** @test */
     public function cria_uma_cadeira_com_sucesso()
