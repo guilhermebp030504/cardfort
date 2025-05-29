@@ -37,10 +37,10 @@ O projeto original funcionava, mas apresentava desafios típicos de sistemas des
 A adoção do padrão MVC no Laravel proporcionou uma organização clara das responsabilidades:
 
 - **Models** (`app/Models/`) - Representação dos dados e regras de negócio
-  - `User.php` - Gerenciamento de usuários e autenticação
-  - `Product.php` - Catálogo de produtos
-  - `Order.php` - Processamento de pedidos
-  - `Categoria.php` - Categorização de produtos
+  - `Cadastro.php` - Gerenciamento de usuários e autenticação
+  - `Cadeira.php` - Catálogo de cadeiras
+  - `Categoria.php` - Categorias das cadeiras 
+  - `Material.php` - Lista de materias das cadeiras
 
 - **Views** (`resources/views/`) - Interface do usuário com Blade Templates
   - Layout principal com componentes reutilizáveis
@@ -48,7 +48,6 @@ A adoção do padrão MVC no Laravel proporcionou uma organização clara das re
   - Sistema de herança de layouts
 
 - **Controllers** (`app/Http/Controllers/`) - Lógica de controle e comunicação
-  - `AuthController` - Controle de autenticação
   - `LoginController` - Gerenciamento de login/logout
   - `ComprasController` - Processamento de compras e filtros
 
@@ -67,7 +66,7 @@ Durante a refatoração, as responsabilidades foram separadas em funções e cla
 - Filtros de busca no método `aplicarFiltroPreco()`
 - Acesso ao banco de dados nas classes Model
 
-**Exemplo:** O antigo `login_bd.php` foi substituído por um método `login` dentro do `AuthController`, deixando claro que aquela função lida especificamente com o processo de autenticação.
+**Exemplo:** O antigo `login_bd.php` foi substituído por um método `login` dentro do `LoginController`, deixando claro que aquela função lida especificamente com o processo de login.
 
 #### ✅ **DRY (Don't Repeat Yourself)**
 Eliminação de código duplicado através de:
@@ -289,33 +288,6 @@ php artisan test
 - Status de acompanhamento
 - Integração com sistema de pagamento
 
-## 🤝 Contribuição
-
-Para contribuir com o projeto:
-
-1. **Fork** o repositório
-2. Crie uma **branch** para sua feature:
-   ```bash
-   git checkout -b feature/MinhaNovaFuncionalidade
-   ```
-3. **Commit** suas mudanças seguindo os padrões:
-   ```bash
-   git commit -m 'feat: Adiciona nova funcionalidade X'
-   ```
-4. **Push** para a branch:
-   ```bash
-   git push origin feature/MinhaNovaFuncionalidade
-   ```
-5. Abra um **Pull Request** detalhado
-
-### Padrões de Commit
-- `feat:` Nova funcionalidade
-- `fix:` Correção de bug
-- `docs:` Documentação
-- `style:` Formatação
-- `refactor:` Refatoração
-- `test:` Testes
-
 ## 📚 Recursos de Aprendizado
 
 ### Clean Code Principles
@@ -342,20 +314,6 @@ Para contribuir com o projeto:
 ## 📄 Licença
 
 Este projeto é um trabalho acadêmico desenvolvido para demonstrar a aplicação prática de princípios de Clean Code e migração de sistemas legados para frameworks modernos.
-
-## 🎯 Conclusão
-
-A migração do CardFort para Laravel, aplicando princípios de Clean Code, demonstra como uma refatoração bem planejada pode transformar completamente a qualidade de um sistema. Os resultados incluem:
-
-- **Código 300% mais legível** através de nomenclatura clara
-- **Redução de 80% no código duplicado** com componentes reutilizáveis  
-- **Zero vulnerabilidades conhecidas** com proteções automáticas
-- **Tempo de desenvolvimento 50% menor** para novas funcionalidades
-- **Facilidade de manutenção** com arquitetura organizada
-
-Este projeto serve como exemplo prático de como aplicar boas práticas de desenvolvimento, resultando em um sistema robusto, escalável e preparado para o futuro.
-
----
 
 <div align="center">
 
