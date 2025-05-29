@@ -262,32 +262,6 @@ php artisan test
 - **Eloquent**: ORM para operações de banco
 - **Blade**: Template engine para views
 
-## 🚀 Funcionalidades Detalhadas
-
-### Sistema de Autenticação
-- Login seguro com hash de senhas
-- Controle de sessão robusto
-- Middleware de proteção automática
-- Logout com limpeza completa de sessão
-
-### Gerenciamento de Produtos
-- Cadastro com validação de dados
-- Categorização automática
-- Filtros avançados por preço e categoria
-- Interface intuitiva de navegação
-
-### Carrinho de Compras
-- Persistência durante a sessão
-- Atualização dinâmica de quantidades
-- Cálculo automático de totais
-- Interface responsiva
-
-### Sistema de Pedidos
-- Processamento completo de compras
-- Histórico de pedidos
-- Status de acompanhamento
-- Integração com sistema de pagamento
-
 ## 📚 Recursos de Aprendizado
 
 ### Clean Code Principles
@@ -318,8 +292,6 @@ Este projeto é um trabalho acadêmico desenvolvido para demonstrar a aplicaçã
 <div align="center">
 
 **Desenvolvido com ❤️ pela equipe CardFort**
-
-*Transformando código legado em soluções modernas*
 
 [![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)](https://laravel.com)
 [![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)](https://php.net)
