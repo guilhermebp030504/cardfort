@@ -267,7 +267,7 @@ cardfort/
 # Corrigir automaticamente problemas de formatação
 ./vendor/bin/phpcbf --standard=PSR12 app/
 
-# Executar testes (quando implementados)
+# Executar testes 
 php artisan test
 ```
 
