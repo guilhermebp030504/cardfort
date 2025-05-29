@@ -20,7 +20,7 @@ class Cadeira extends Model
         'img',
         'descricao',
     ];
-
+    public $timestamps = false;
     protected $casts = [
         'preco' => 'decimal:2',
     ];

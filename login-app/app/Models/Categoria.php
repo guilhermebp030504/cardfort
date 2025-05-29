@@ -13,6 +13,7 @@ class Categoria extends Model
     protected $primaryKey = 'codigo';
 
     protected $fillable = ['nome'];
+    public $timestamps = false;
 
     public function cadeiras()
     {

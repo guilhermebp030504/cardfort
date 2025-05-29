@@ -1,4 +1,5 @@
 <?php
+
 use Tests\TestCase;
 use App\Models\Cadastro;
 use Illuminate\Support\Facades\DB;

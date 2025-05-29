@@ -14,8 +14,8 @@ class Cadastro extends Authenticatable
     use Notifiable;
 
     protected $table = 'cadastro';
-
     protected $primaryKey = 'codigo';
+
 
     /**
      * @var array<int, string>
