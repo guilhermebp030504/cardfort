@@ -204,6 +204,22 @@ php artisan serve
 
 **Acesse:** http://localhost:8000
 
+## 📁 Estrutura do Projeto
+
+```
+cardfort/
+├── app/
+│   ├── Http/Controllers/     # Controladores
+│   ├── Models/              # Modelos Eloquent
+│   └── ...
+├── resources/
+│   ├── views/              # Templates Blade
+│   └── ...
+├── database/
+├── public/
+├── .env.example           # Configurações de ambiente
+```
+
 ## 🔧 Principais Melhorias Implementadas
 
 ### Comparativo: Antes vs Depois
