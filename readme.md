@@ -202,6 +202,12 @@ php artisan key:generate
 php artisan serve
 ```
 
+#### 7. 🔑 Usuário e senha
+```bash
+Usuário: adm
+Senha: adm
+```
+
 **Acesse:** http://localhost:8000
 
 ## 📁 Estrutura do Projeto
