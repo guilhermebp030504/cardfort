@@ -13,7 +13,7 @@ class Material extends Model
     protected $primaryKey = 'codigo';
 
     protected $fillable = ['nome'];
-
+    public $timestamps = false;
     public function cadeiras()
     {
         return $this->hasMany(Cadeira::class, 'id_material', 'codigo');
