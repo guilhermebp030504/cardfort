@@ -24,6 +24,7 @@ Focused on furniture sales simulation with product registration and management f
 - SQL
 - HTML
 - CSS
+- PHP
 
 ---
 
